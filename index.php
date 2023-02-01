@@ -43,7 +43,7 @@
     <body>
         <form action="index.php#" method="POST">
             <label for="nombre_apellido">Nombre y Apellido:</label>
-            <input type="text" name="nombre_apellido" id="#nombre_apellido" required>
+            <input type="text" pattern="[A-Za-záéíóúÁÉÍÓÚÑñ]+\s[A-Za-záéíóúÁÉÍÓÚÑñ]+" name="nombre_apellido" id="#nombre_apellido" required>
             <br><br>
 
             <label for="edad">Edad:</label>
